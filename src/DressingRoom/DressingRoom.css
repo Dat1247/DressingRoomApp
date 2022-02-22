@@ -1,0 +1,158 @@
+/* BEGIN MODEL */
+
+body {
+    letter-spacing: 1px;
+    background-color: #dddddd;
+}
+
+.title {
+    background: linear-gradient(90deg, #b8b7b7 30%, #757575 50%, #b8b7b7 100%);
+}
+
+.title h2 {
+    letter-spacing: 2px;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #222425;
+    margin-bottom: 0;
+}
+
+.contain {
+    width: 460px;
+    height: 590px;
+    margin: 0 auto;
+    position: relative;
+    /* border: 2px solid #000; */
+}
+
+.body {
+    width: 250px;
+    height: 500px;
+    position: absolute;
+    top: 12%;
+    left: 22%;
+}
+
+.model {
+    width: 60px;
+    height: 77px;
+    position: absolute;
+    top: 5%;
+    left: 45.5%;
+    z-index: 1;
+}
+
+.bikinitop {
+    width: 250px;
+    height: 500px;
+    position: absolute;
+    top: 12%;
+    left: 22%;
+    z-index: 1;
+}
+
+.bikinibottom {
+    width: 250px;
+    height: 500px;
+    position: absolute;
+    top: 12%;
+    left: 22%;
+    z-index: 1;
+}
+
+.handbag {
+    width: 500px;
+    height: 1000px;
+    position: absolute;
+    bottom: -40.5%;
+    right: -3.5%;
+    transform: scale(0.5);
+    z-index: 4;
+}
+
+.necklace {
+    width: 500px;
+    height: 1000px;
+    position: absolute;
+    bottom: -40%;
+    right: -3.5%;
+    transform: scale(0.5);
+    z-index: 4;
+}
+
+.hairstyle {
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    top: -75%;
+    right: -57%;
+    transform: scale(0.15);
+    z-index: 4;
+}
+
+.feet {
+    width: 500px;
+    height: 1000px;
+    position: absolute;
+    bottom: -37%;
+    right: -3.5%;
+    transform: scale(0.5);
+    z-index: 1;
+}
+
+.background {
+    width: 900px;
+    height: 1200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: -53%;
+    right: -50%;
+    transform: scale(0.5);
+    z-index: -1;
+}
+
+
+/* END MODEL */
+
+hr {
+    height: 10px;
+    border: 0;
+    box-shadow: 0 10px 10px -10px #8c8b8b inset;
+}
+
+.nav-tabs .nav-item {
+    width: 141px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.nav-tabs .nav-item .nav-link {
+    border: 1px solid #ccc;
+    font-weight: 600;
+    border-radius: 0 !important;
+    transition: all 0.5s;
+    color: #495057;
+}
+
+.nav-tabs .nav-item .nav-link.active {
+    background-color: #495057;
+    color: #fff;
+    box-shadow: 0 8px 4px rgba(0, 0, 0, 0.2);
+}
+
+.card {
+    border: none;
+    padding: 30px;
+    box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.2);
+}
+
+.card button {
+    border-width: 2px;
+}
+
+.card button:hover {
+    background-color: transparent;
+    color: #146c43;
+    transition: background-color 0.5s;
+}
